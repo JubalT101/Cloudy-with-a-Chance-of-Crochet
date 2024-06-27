@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerElements {
+  text-align: center;
+  font-family: cursive;
+  color: cornsilk;
+  background-color: rgba(92, 151, 254, 255);
+  padding-bottom: 10px;
+}
+
+.logo {
+  height: 300px;
+  width: 300px;
+  border-radius: 150px;
+  /* color: cornflowerblue; */
+  position: absolute;
+  top: 0px;
+  left: 100px;
+}
+
+.navSettings {
+  background: linear-gradient(blue, rgb(67, 125, 225), yellow, orange);
+  height: 150px;
+}
+
+.navAnchorStyle {
+  color: cornsilk;
+  font-size: 30px;
+  position: absolute;
+  left: 500px;
+  top: 150px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(145, 72, 19);
+}
